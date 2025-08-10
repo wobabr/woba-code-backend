@@ -1,0 +1,35 @@
+{
+  "include": ["src", "src/@types"],
+  "exclude": ["node_modules", "dist"],
+  "compilerOptions": {
+    "outDir": "./dist",   
+    "rootDir": "./src",        
+    "declaration": true,          
+    "removeComments": true,
+    "target": "ES2020",
+    "module": "commonjs",
+    "baseUrl": "./src",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "typeRoots": ["./node_modules/@types", "./src/@types"],
+    "paths": {
+      "@routes": ["infra/http/routes/index"],
+      "@routes/*": ["infra/http/routes/*"],
+      "@controllers/*": ["infra/http/controllers/*"],
+      "@middlewares/*": ["infra/http/middlewares/*"],
+      "@entities/*": ["domain/entities/*"],
+      "@repositories/*": ["domain/repositories/*"],
+      "@usecases/*": ["domain/use-cases/*"],
+      "@services/*": ["domain/services/*"],
+      "@domain/*": ["domain/*"],
+      "@shared/*": ["shared/*"],
+      "@infra/*": ["infra/*"],
+      "@prisma/*": ["infra/database/prisma/*"],
+      "@config/*": ["config/*"],
+      "@docs/*": ["docs/*"]
+    },
+    "moduleResolution": "node"
+  }
+}
