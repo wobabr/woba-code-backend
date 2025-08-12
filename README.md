@@ -1,4 +1,4 @@
-# API – Node.js + TypeScript + PostgreSQL
+# API – Node.js + TypeScript + PostgreSQL (Pair Programming Test #2025)
 
 Este projeto é um **MVP de uma API RESTful** em Node.js usando **Express**, **TypeScript**, **Prisma** e **PostgreSQL**, estruturado segundo os princípios da **Clean Architecture**.
 
