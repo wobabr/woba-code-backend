@@ -1,3 +1,9 @@
+# ⚠️ DISCLAIMER
+
+**Este NÃO é um projeto oficial.** Este repositório serve exclusivamente como base para testes técnicos e demonstrações de código. Não é destinado para uso em produção ou como referência oficial de implementação.
+
+---
+
 # API – Node.js + TypeScript + PostgreSQL (Pair Programming Test #2025)
 
 Este projeto é um **MVP de uma API RESTful** em Node.js usando **Express**, **TypeScript**, **Prisma** e **PostgreSQL**, estruturado segundo os princípios da **Clean Architecture**.
